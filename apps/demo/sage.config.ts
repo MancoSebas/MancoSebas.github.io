@@ -2,7 +2,7 @@ import { defineSageConfig } from "astro-sage";
 
 export default defineSageConfig({
   site: {
-    url: "https://astro-sage.chintak.sh/",
+    url: "https://mancosebas.github.io/",
     title: "AstroSage",
     description:
       "A readability-first Astro blog theme: serif type, warm paper, and a pinned table of contents.",
