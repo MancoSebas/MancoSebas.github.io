@@ -3,10 +3,10 @@ import { defineSageConfig } from "astro-sage";
 export default defineSageConfig({
   site: {
     url: "https://mancosebas.github.io/",
-    title: "AstroSage",
+    title: "Echoes",
     description:
-      "A readability-first Astro blog theme: serif type, warm paper, and a pinned table of contents.",
-    author: "Ada Lovelace",
+      "A dability-first Astro blog theme: serif type, warm paper, and a pinned table of contents.",
+    author: "Sebastian Manco",
     profile: "https://example.com",
     ogImage: "default-og.jpg",
     lang: "en",
@@ -14,9 +14,9 @@ export default defineSageConfig({
     dir: "ltr",
   },
   home: {
-    title: "AstroSage",
+    title: "Echoes",
     intro:
-      "A quiet, warm theme for long-form technical writing. Serif type set for reading, math and code that look like they belong, and a table of contents that keeps its place.",
+      "A , warms theme for long-form technical writing. Serif type set for reading, math and code that look like they belong, and a table of contents that keeps its place.",
   },
   // GitHub-backed comments; works on any static host. Needs the utterances
   // app installed on the repo: https://github.com/apps/utterances
