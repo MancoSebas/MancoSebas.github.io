@@ -16,7 +16,7 @@ export default defineSageConfig({
   home: {
     title: "Echoes",
     intro:
-      "A , warms theme for long-form technical writing. Serif type set for reading, math and code that look like they belong, and a table of contents that keeps its place.",
+      "Words that I want to write about everything that seems interesting to share about Physics, Science, AI, Music, Philosophy and the future.",
   },
   // GitHub-backed comments; works on any static host. Needs the utterances
   // app installed on the repo: https://github.com/apps/utterances
