@@ -5,24 +5,38 @@
   "customizations": {
     "vscode": {
       "extensions": [
-        // Soporte para Astro y formateo
         "astro-build.astro-vscode",
         "esbenp.prettier-vscode",
-
-        // Redacción y corrección de Markdown
         "yzhang.markdown-all-in-one",
-        "DavidAnson.vscode-markdownlint",
         "streetsidesoftware.code-spell-checker",
         "streetsidesoftware.code-spell-checker-spanish",
 
-        // CMS visual para Frontmatter (opcional pero muy cómodo)
-        "frontmatter.front-matter-cms"
+        // 1. Extensión de Vim
+        "vscodevim.vim",
+
+        // 2. Extensión de tema (ej: Tokyo Night, One Dark Pro, Catppuccin, etc.)
       ],
       "settings": {
-        // Envolver líneas automáticamente para que los párrafos no se vayan al infinito
+        // --- APARIENCIA ---
+        "editor.fontSize": 16,
+        "editor.lineHeight": 24,
+
+        // --- CONFIGURACIÓN DE VIM ---
+        "vim.useSystemClipboard": true,       // Para que 'y' y 'p' usen el portapapeles de tu PC
+        "vim.hlsearch": true,                 // Resaltar búsquedas
+        "vim.incsearch": true,
+        "vim.easymotion": true,
+
+        "vim.insertModeKeyBindings": [
+          {
+            "before": ["j", "j"],
+            "after": ["<Esc>"]
+          }
+        ],
+
+        // --- REDACCIÓN ---
         "[markdown]": {
-          "editor.wordWrap": "on",
-          "editor.quickSuggestions": false
+          "editor.wordWrap": "on"
         }
       }
     }
